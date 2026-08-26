@@ -1,11 +1,39 @@
+
+:root{
+    --primary-color: #4a1985;
+    --secondary-color: white; 
+    --heading-font-family: 'Lobster Two', cursive;
+    --font-family: 'Poppins', sans-serif;
+}
+
+
 h1{
     color: black; 
-    font-family: 'Lobster Two', cursive;
-    font-weight: 700;   
+    font-family: var(--heading-font-family);
+    font-weight: 700;
     font-style: italic;
 }
+
 p{
     color: black; 
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
+}
+.hero{
+    background: #f9f7fe;
+    text-align: center;
+    padding:  20px 20px;
+}
+
+.btn-branding{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 30px auto;
+}
+
+.btn-branding:hover{
+    font-weight: bold;
 }
