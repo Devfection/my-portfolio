@@ -126,7 +126,6 @@ img{
 .email-link{
     justify-content: center;
     color: var(--primary-color);
-    font-size: 15px;
     text-decoration: none;
     font-weight: 600;
 }
@@ -134,6 +133,7 @@ img{
 .email-link:hover {
   text-decoration: underline;
 }
+
 footer{
     margin: 60px 0;
 }
