@@ -1,39 +1,108 @@
-
-:root{
-    --primary-color: #4a1985;
-    --secondary-color: white; 
-    --heading-font-family: 'Lobster Two', cursive;
-    --font-family: 'Poppins', sans-serif;
+:root {
+  --primary-color:#4a1985;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: 'Lobster Two', cursive;
+  --font-family: 'Poppins', sans-serif;
 }
 
 
-h1{
-    color: black; 
-    font-family: var(--heading-font-family);
-    font-weight: 700;
-    font-style: italic;
+h1 {
+  font-size: 96px;
+
 }
 
-p{
-    color: black; 
-    font-family: var(--font-family);
-    font-weight: 400;
-}
-.hero{
-    background: #f9f7fe;
-    text-align: center;
-    padding:  20px 20px;
+.hero-heading{
+  margin-top: 120px;
 }
 
-.btn-branding{
-    background-color: var(--primary-color);
-    border-radius: 4px;
-    color: white; 
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 30px auto;
+h2 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  text-decoration: italic;
+
 }
 
-.btn-branding:hover{
-    font-weight: bold;
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-align: center; 
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
