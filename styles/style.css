@@ -28,6 +28,10 @@ h3 {
   opacity: 0.7;
 }
 
+h4{
+    font-size: 28px;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -77,12 +81,21 @@ p {
   margin: 10px;
 }
 
-.email-link {
+.email-link-header {
+    
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: black;
+  font-size: 20px;
   text-decoration: none;
+}
+
+.email-link{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .email-link:hover {
