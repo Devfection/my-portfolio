@@ -20,7 +20,7 @@ h2 {
   font-size: 48px;
   font-family: var(--heading-font-family);
   text-decoration: italic;
-
+  margin-top: 15px;
 }
 
 h3 {
@@ -36,6 +36,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+img{
+    margin-bottom: 10px;
+}
+
 .navbar .nav-link {
   color: black;
   transition: color 0.2s ease-in-out;
@@ -79,7 +84,7 @@ p {
     padding: 20px 40px;
     color: white;
     background: var(--primary-color);
-    text-decoration: capitalize;
+    text-decoration: none;
 }
 
 .primary-link-wider:hover{
@@ -111,7 +116,6 @@ p {
 }
 
 .email-link-header {
-    
   display: flex;
   justify-content: center;
   color: black;
@@ -120,11 +124,11 @@ p {
 }
 
 .email-link{
-    display: flex;
     justify-content: center;
     color: var(--primary-color);
     font-size: 15px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .email-link:hover {
@@ -153,6 +157,11 @@ footer .contact-box{
 
 footer .contact-box p{
     margin: 0;
+}
+
+footer .bottom{
+    font-size: 15px;
+    color: grey
 }
 
 @media (max-width: 768px) {
