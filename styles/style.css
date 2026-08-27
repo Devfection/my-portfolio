@@ -36,6 +36,17 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+.navbar .nav-link {
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--primary-color)!important;
+  font-weight: bold;
+}
+
 
 .navigation-links {
   display: flex;
